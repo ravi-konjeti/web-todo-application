@@ -29,6 +29,7 @@ import functions
 todos = functions.get_todos()
 
 
+
 def add_todo():
     # This function is called when user makes any input to the input label because in st.text_input
     # We have given on change = add_todo which mean on any change in the input it calls this function
