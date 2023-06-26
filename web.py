@@ -37,6 +37,7 @@ def add_todo():
     # which is unstructured data we have to structure in data engineering
     # we will have the user entered data in UI in form of dictionary.
     # we extracted the data with "new_todo" is input keyname and value is the data user entered
+    #firstone
 
 
     todo = st.session_state["new_todo"] + "\n"
